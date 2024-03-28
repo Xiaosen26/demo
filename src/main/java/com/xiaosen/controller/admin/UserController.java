@@ -57,7 +57,7 @@ public class UserController {
         // 将用户对象添加到Session
         session.setAttribute("USER_SESSION", userLoginVO);
         //用户登录成功，转发到系统首页
-        return "jsp/name";
+        return "name";
 //        //如果用户名和密码不匹配，转发到登录页面，并进行提醒
 //        model.addAttribute("msg", "用户名或密码错误，请重新登录！");
 //        return "jsp/login";

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ViewController {
 
     @GetMapping("getname")
-
     public String getName(Model model){
         model.addAttribute("name","keafmd");
         return "name";
