@@ -1,0 +1,39 @@
+body {
+    background-color: #f8d7da; /* 红色的背景色 */
+    color: #721c24; /* 文本颜色 */
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-top: 10%;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+body, .container {
+    transition: height 2s ease-in-out; /* 以0.5秒的时间以缓入缓出的方式过渡高度变化 */
+}
+
+/* 在需要响应式布局的媒体查询中定义新的高度 */
+@media (max-width: 200px) {
+    body, .container {
+        height: 100vh; /* 或者其他适合的高度值 */
+    }
+}
+
+
+
+h1 {
+    font-family: Arial, sans-serif; /* 使用 Arial 字体 */
+    font-size: 24px; /* 设置字体大小为 24px */
+    color: #333; /* 设置字体颜色为深灰色 */
+    text-align: center; /* 居中对齐 */
+    margin-bottom: 20px; /* 底部留出一定间距 */
+}
