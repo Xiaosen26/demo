@@ -27,9 +27,9 @@
     }
 </style>
 <body style="position: relative; min-height: 80vh;">
-<div class="container" style="position: absolute; bottom: 20%;" >
+<div class="container" style="position: absolute; bottom: 10%;" >
     <div class="row justify-content-center mt-5" >
-        <div class="col-md-4" style="margin-left: 38%">
+        <div class="col-md-4" style="margin-left: 50%">
             <h1 class="text-center mb-4">登录页面</h1>
             <form action="login" method="post">
                 <div class="form-group mt-4">

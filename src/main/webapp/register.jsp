@@ -52,7 +52,7 @@
 <body>
 <div class="container">
     <div class="register">
-        <form action="" method="post" onsubmit="return validateForm();">
+        <form action="register" method="post" onsubmit="return validateForm();">
             <div class="register-top-grid">
                 <h3 style="text-align: center">用户注册</h3>
                 <div>

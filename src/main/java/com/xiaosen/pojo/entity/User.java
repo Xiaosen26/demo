@@ -5,13 +5,14 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class User implements Serializable {
     private Long id;
 
     private String name;
@@ -21,11 +22,8 @@ public class User {
     private String phone;
 
     private String email;
-
     private Integer sId;
-
-    private Integer ifAdmin;
-
+    //0:禁用账号 1:普通用户  2:管理员
     private Integer state;
     private Integer number;
 
